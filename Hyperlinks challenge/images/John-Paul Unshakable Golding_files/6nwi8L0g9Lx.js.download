@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ZxQNB"]); }
+
+__d("createErrorStream",["ReadableStream"],(function(a,b,c,d,e,f){"use strict";function a(a){return new(b("ReadableStream"))({pull:function(b){b.error(a)}})}e.exports=a}),null);

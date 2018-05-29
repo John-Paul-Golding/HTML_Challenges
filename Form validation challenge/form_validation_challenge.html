@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Validation </title>
+  </head>
+  <body align="center">
+<form>
+    <h1>Registration Form</h1>
+    User ID: <input type="text" name="ID" value="" required title="Required and must be of length 5 to 12."> <br />
+<p>
+    Password:<input type="password" name="password" value="" required title="Required and must be of length 7 to 12."> <br />
+    <p>
+      Name: <input type="text" name="firstname" value="" required title="Required and alphabates only."> <br />
+      <p>
+        Address: <input type="Address" name="address" value="" required title="Optional."> <br />
+        <p>
+        Country: <select class="" name="Country">
+                    <option value="America">America</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Bali">Bali</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="South America">South America</option>
+                    <option value="South Africa">South Africa</option>
+                    </select>
+<p>
+                  ZIP code: <input type="text" name="zip code" value="" required title="Required. Must be numeric only.">
+<p>
+                  E-mail: <input type="text" name="email" value="" required title="Required. Must be a valid email."> <br />
+<p>
+                  Sex: <input type="radio" name="sex" value="male">Male
+                       <input type="radio" name="sex" value="female" required title="required">Female
+<p>
+                  Language: <input type="checkbox" name="language" value="english"> English
+                            <input type="checkbox" name="language" value="Non English" required title="Required"> Non English
+<p>
+                  About: <br><textarea name="message" rows="8" cols="40" required title="Optional"></textarea>
+
+<p>
+                  <button type="Submit" name="Submit">Submit</button>
+</form>
+      </body>
+</html>

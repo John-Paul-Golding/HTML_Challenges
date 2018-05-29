@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["WebOR"]); }
+
+__d("QuickLogEvents",[],(function(a,b,c,d,e,f){e.exports=Object.freeze({655575:{moduleName:"FEED",name:"CONSUMPTION_RESTORATION_WWW",sampleRate:1},655576:{moduleName:"FEED",name:"IMAGE_LOAD_WWW",sampleRate:1}})}),null);
